@@ -45,7 +45,7 @@ sh watersensor.py
 
 ## Authors
 
-* **Holger hellinger** - *Initial work* - [POlent](https://github.com/polent)
+* **Holger Hellinger** - *Initial work* - [Polent](https://github.com/polent)
 
 ## License
 
