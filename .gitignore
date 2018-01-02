@@ -1,2 +1,4 @@
 config.py
+config.pyc
 .git
+__pycache__/
