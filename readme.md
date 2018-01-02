@@ -18,7 +18,12 @@ Change to your folder where you checked out this repo and run the following comm
 sh watersensor.py
 ```
 
-This will fail as you need to setup a config.py with the secret of your IFTTT.com service and the need to define the house where the PI will be installed.
+This will fail as you need to setup a config.py with the secret of your IFTTT.com service and the need to define the house where the PI will be installed. The watersensor.py expects the config in the same folder.
+
+```
+secret = '{{your IFTTT key}}'
+sensor = 'uniqueID'
+```
 
 ### Installing
 
