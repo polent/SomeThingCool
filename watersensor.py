@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Script is for connecting a PI with a IFTTT service
 # Checking for Humity, snednign warning
@@ -10,7 +10,7 @@
 from config import * #Just to make sure to not expose the secret to github
 import RPi.GPIO as GPIO
 import time
-import urllib
+import urllib.request
 
 # Set some generic Strings
 HUMITYSTRING = "https://maker.ifttt.com/trigger/HumityLevel/with/key/" + secret + "/?value1=" + sensor
