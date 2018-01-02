@@ -10,7 +10,7 @@
 from config import * #Just to make sure to not expose the secret to github
 import RPi.GPIO as GPIO
 import time
-import urllib.request
+import urllib
 
 # Set some generic Strings
 HUMITYSTRING = "https://maker.ifttt.com/trigger/HumityLevel/with/key/" + secret + "/?value1=" + sensor
